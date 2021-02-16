@@ -60,3 +60,24 @@
     height: 3.4rem;
     background-color: #C38D9E;
 }
+
+
+/*LOADER*/
+
+#loader{
+    border:1.6rem solid white;
+    border-top: 1.6rem solid #244540;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform:rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
